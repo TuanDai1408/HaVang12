@@ -1,0 +1,1094 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main {
+   
+
+}
+.text-color-white{
+    color:white;
+}
+.clear{
+    clear: both;
+}
+.col-half{
+    width: 50%;
+}
+.col-48{
+    width: 47%;
+}
+
+#header {
+    height: 46px;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;  
+    z-index: 1; 
+   
+
+}
+#header #nav{
+    display: inline-block;
+}
+
+#nav li{
+    display: inline-block;
+    position: relative;
+    
+
+   
+}
+#nav>li>a{
+    text-transform: uppercase;
+}
+#nav li a {
+    
+    color: black;
+    text-decoration: none;
+   line-height: 46px;
+    padding:0 24px;
+    font-size:17px;
+    font-weight: bold;
+    
+    
+}
+#nav li:hover #subnav {
+    display: block;
+}
+#subnav li a:hover,
+#nav >li:hover> a{
+    
+    background-color: rgb(68, 61, 61);
+    
+}
+#nav li:hover a{
+    color: white;
+    
+    display:inline-block;
+}
+#nav .nav-icons-arrow {
+    font-size: 12px;
+    font-weight: bold;
+}
+.icons-search {
+    
+    float: right;
+}
+.icons-search .ti-search{
+    line-height: 46px;
+    padding: 0 21px;
+    display: block;
+    cursor: pointer;
+}
+.icons-search .ti-search:hover{
+    background-color: rgb(231, 230, 250);
+}
+#subnav {
+    display: none;
+    position:absolute;
+    background-color: gray;
+    min-width: 205px;
+    box-shadow: 0 0 10px,rgba(0, 0, 0,0.3);
+}
+#subnav li{
+    width: 100%;
+}
+#subnav li a{
+    width: 100%;
+    padding:0 12px;
+    line-height: 38px;
+}
+
+#slider {
+   
+    background-color: blueviolet;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/assets/img/slider/slider1.jpg');
+   background-position: top center;
+   background-size: cover;
+   position: relative;
+  
+
+
+
+}
+#slider .tetx-content{
+    position: absolute;
+    color:white;
+    bottom: 48px;
+    width: 100%;
+    text-align: center;
+    
+
+
+}
+
+#slider .text-header{
+    margin-bottom: 18px;
+
+}
+
+#slider .text-decriptions{
+    font-size: 24px;
+    font-weight: 400;
+    
+    
+
+}
+
+
+
+#content {
+width: 100%;
+height: 100%;
+}
+#content .tect-content{
+    padding-top: 80px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+
+}
+#content .text-heading{
+    letter-spacing: 2px;
+   line-height: 5px;
+   padding-bottom: 10px;
+
+}
+#content .text-sub-heading{
+    margin-top: 25px;
+    font-style: italic;
+    padding-bottom: 20px;
+    
+
+}
+#content .text-desciption{
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 1.6;
+    
+
+}
+#box-content{
+   
+    width: 100%;
+    margin-bottom: 60px;
+
+}
+#box-content .name{
+   padding-bottom: 12px;
+
+}
+#box-content .box-img{
+    width: 33.3333%;
+    float: left;
+    padding: 40px 80px 40px 62px;
+    
+    
+
+}
+#box-content .img{
+    border-radius: 12px;
+    border: 2px solid red;  
+}
+.img .ronaldo{
+    margin-left: -12px !important;
+}
+.img .cavani{
+ 
+    margin-right: -12px !important;
+    
+}
+.box-img .img{
+    width: 100%;
+    height: 100%;
+}
+.content-lichthidau{
+    background-color: black;
+    padding-top: 40px;
+    display: block;
+    text-align: center;
+    
+}
+.content-lichthidau .text-heading{
+    padding: 10px;
+}
+.tect-content .list-item .ticks-list{
+   width: 50%;
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+    
+
+}
+
+.ticks-list li{
+    background-color: white;
+    border-bottom: 2px solid gray;
+    padding: 10px 0;
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+.list-item .sold-out{
+    background-color: red;
+    padding: 4px;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+}
+.list-item .number{
+    float: right;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    background-color:black;
+    color: white;
+    margin-right: 20px;
+    text-align: center;
+    
+    
+
+}
+.row-box{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    width: 50%;
+    text-align: center;
+    padding-bottom: 120px;
+    
+    
+
+}
+.box-test{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.row-box .box-item{
+    float: left;
+    width: 33.3333%;
+    padding:0px 8px;
+    
+    
+
+}
+
+.row-box .image{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.row-box .image:hover{
+    opacity: 0.6;
+}
+.box-item .box-dsc{
+    background-color: #fff;
+    text-align: start;
+    padding: 20px 5px 60px 20px;
+    
+}
+.box-item .box-img:hover{
+    background-color: gray;
+   
+  
+    
+}
+.row-box .header{
+
+}
+
+.row-box .date{
+    padding-top: 20px;
+    color: gray;
+
+}
+
+.row-box .desciption{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    line-height: 1.6;
+
+}
+
+.row-box .buy-ticks{
+    padding: 10px 20px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    margin-top: 400px;
+    text-decoration: none;
+
+}
+.row-box .buy-ticks:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.modal.open{
+    display: flex;
+}
+.modal{
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0,0.3);
+   display: none;
+    align-items: center;
+    justify-content: center;
+   
+}
+.modal .ti-close{
+   position: absolute;
+    color:white;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+    
+}
+.modal .ti-close:hover{
+    opacity: 1;
+
+}
+
+.modal-container {
+    background: white;
+    width: 900px;
+    max-width: calc(100% - 48px);
+    min-height: 300px;
+    position: relative;
+    animation: FadeIn ease 0.8s;
+   
+   
+}
+.modal-header{
+    background: #009688;
+    height: 120px;
+    color: white;
+    font-size:30px;
+    letter-spacing: 5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.modal-header .text-tickes{
+    margin-left: 16px;
+}
+.modal-input{
+    padding: 12px 10px;
+    width: 100%;
+    margin-bottom: 40px;
+    border: #009688 solid 2px;
+    border-radius: 5px;
+}
+.modal-label{
+    display: block;
+    padding-bottom: 20px;
+    margin-top: 7px;
+}
+.modal-body{
+    padding: 20px;
+    
+}
+.modal-button{
+    width: 100%;
+    background-color: #009688;
+    padding: 10px;
+    
+    border-radius: 5px;
+    
+}
+.modal-button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.box-button{
+    padding: 20px;
+}
+.modal-footer{
+    text-align: end;
+    padding: 20px;
+}
+@keyframes FadeIn{
+    from{
+        transform: translateY(-180px);
+        opacity: 0;
+
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+
+    }
+}
+#content .contact{
+   
+   
+
+}
+.contact .box-contact{
+    
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom:120px;
+    
+}
+.box-contact .info {
+    float: left;
+    
+    
+}
+.col-half .names{
+    float: left !important;
+}
+.box-contact .info i{
+    width: 32px;
+    
+    padding-right: 10px;
+ 
+}
+.box-contact .info p{
+    display: block;
+    padding: 14px 0px 14px 0px;
+    font-size: 18px;
+}
+.box-contact .box-input {
+    
+ 
+}
+.box-contact .box-input{
+   float: right;
+    display: inline;
+    margin-bottom: 15px;
+    padding: 10px;
+    
+}
+
+.box-input .name{
+    padding: 16px;
+    margin-bottom: 10px;
+    
+}
+.box-input .email{
+    margin-left: 10%;
+    
+}
+.box-input .message{
+    width: 100%;
+    
+}
+.box-contact .btn-send{
+   
+   
+    padding: 12px 32px;
+    background-color: #000;
+    color: #fff;
+    float: right;
+    margin-top: 20px;
+    font-weight: bold;
+    
+
+}
+.box-contact .btn-send:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    
+}
+.box-row .input{
+    
+}
+.footer-img .image{
+    width: 100%;
+}
+.footer{
+    padding: 64px 16px;
+    text-align:center;
+}
+.footer .social-list a{
+    font-size: 24px;
+    text-decoration: none;
+  
+    color: gray;
+}
+.footer p{
+    padding-top: 20px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive on Pc */
+
+@media (min-width: 740px) and (max-width:1024px){
+
+    *{
+        padding:0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #main {
+       
+    
+    }
+    .text-color-white{
+        color:white;
+    }
+    .clear{
+        clear: both;
+    }
+    .col-half{
+        width: 50%;
+    }
+    .col-48{
+        width: 47%;
+    }
+    
+    #header {
+        height: 46px;
+        background-color: red;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;  
+        z-index: 1; 
+       
+    
+    }
+    #header #nav{
+        display: inline-block;
+    }
+    
+    #nav li{
+        display: inline-block;
+        position: relative;
+        
+    
+       
+    }
+    #nav>li>a{
+        text-transform: uppercase;
+    }
+    #nav li a {
+        
+        color: black;
+        text-decoration: none;
+       line-height: 46px;
+        padding:0 24px;
+        font-size:17px;
+        font-weight: bold;
+        
+        
+    }
+    #nav li:hover #subnav {
+        display: block;
+    }
+    #subnav li a:hover,
+    #nav >li:hover> a{
+        
+        background-color: rgb(68, 61, 61);
+        
+    }
+    #nav li:hover a{
+        color: white;
+        
+        display:inline-block;
+    }
+    #nav .nav-icons-arrow {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .icons-search {
+        
+        float: right;
+    }
+    .icons-search .ti-search{
+        line-height: 46px;
+        padding: 0 21px;
+        display: block;
+        cursor: pointer;
+    }
+    .icons-search .ti-search:hover{
+        background-color: rgb(231, 230, 250);
+    }
+    #subnav {
+        display: none;
+        position:absolute;
+        background-color: gray;
+        min-width: 205px;
+        box-shadow: 0 0 10px,rgba(0, 0, 0,0.3);
+    }
+    #subnav li{
+        width: 100%;
+    }
+    #subnav li a{
+        width: 100%;
+        padding:0 12px;
+        line-height: 38px;
+    }
+    
+    #slider {
+       
+        background-color: blueviolet;
+        margin-top: 46px;
+        padding-top: 50%;
+        background: url('/assets/img/slider/slider1.jpg');
+       background-position: top center;
+       background-size: cover;
+       position: relative;
+      
+    
+    
+    
+    }
+    #slider .tetx-content{
+        position: absolute;
+        color:white;
+        bottom: 48px;
+        width: 100%;
+        text-align: center;
+        
+    
+    
+    }
+    
+    #slider .text-header{
+        margin-bottom: 18px;
+    
+    }
+    
+    #slider .text-decriptions{
+        font-size: 24px;
+        font-weight: 400;
+        
+        
+    
+    }
+    
+    
+    
+    #content {
+    width: 100%;
+    height: 100%;
+    }
+    #content .tect-content{
+        padding-top: 80px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 50%;
+    
+    }
+    #content .text-heading{
+        letter-spacing: 2px;
+       line-height: 5px;
+       padding-bottom: 10px;
+    
+    }
+    #content .text-sub-heading{
+        margin-top: 25px;
+        font-style: italic;
+        padding-bottom: 20px;
+        
+    
+    }
+    #content .text-desciption{
+        margin-top: 10px;
+        text-align: justify;
+        line-height: 1.6;
+        
+    
+    }
+    #box-content{
+       
+        width: 100%;
+        margin-bottom: 60px;
+    
+    }
+    #box-content .name{
+       padding-bottom: 12px;
+    
+    }
+    #box-content .box-img{
+        width: 33.3333%;
+        float: left;
+        padding: 40px 80px 40px 62px;
+        
+        
+    
+    }
+    #box-content .img{
+        border-radius: 12px;
+        border: 2px solid red;  
+    }
+    .img .ronaldo{
+        margin-left: -12px !important;
+    }
+    .img .cavani{
+     
+        margin-right: -12px !important;
+        
+    }
+    .box-img .img{
+        width: 100%;
+        height: 100%;
+    }
+    .content-lichthidau{
+        background-color: black;
+        padding-top: 40px;
+        display: block;
+        text-align: center;
+        
+    }
+    .content-lichthidau .text-heading{
+        padding: 10px;
+    }
+    .tect-content .list-item .ticks-list{
+       width: 50%;
+       margin-top: 50px;
+       margin-left: auto;
+       margin-right: auto;
+        
+    
+    }
+    
+    .ticks-list li{
+        background-color: white;
+        border-bottom: 2px solid gray;
+        padding: 10px 0;
+        text-align: start;
+        padding-top: 10px;
+        padding-left: 10px;
+    
+    }
+    .list-item .sold-out{
+        background-color: red;
+        padding: 4px;
+        font-weight: 500;
+        color: white;
+        margin-left: 10px;
+    }
+    .list-item .number{
+        float: right;
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 5px;
+        background-color:black;
+        color: white;
+        margin-right: 20px;
+        text-align: center;
+        
+        
+    
+    }
+    .row-box{
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+       
+        width: 50%;
+        text-align: center;
+        padding-bottom: 120px;
+        
+        
+    
+    }
+    .box-test{
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .row-box .box-item{
+        float: left;
+        width: 33.3333%;
+        padding:0px 8px;
+        
+        
+    
+    }
+    
+    .row-box .image{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .row-box .image:hover{
+        opacity: 0.6;
+    }
+    .box-item .box-dsc{
+        background-color: #fff;
+        text-align: start;
+        padding: 20px 5px 60px 20px;
+        
+    }
+    .box-item .box-img:hover{
+        background-color: gray;
+       
+      
+        
+    }
+    .row-box .header{
+    
+    }
+    
+    .row-box .date{
+        padding-top: 20px;
+        color: gray;
+    
+    }
+    
+    .row-box .desciption{
+        padding-top: 20px;
+        padding-bottom: 40px;
+        line-height: 1.6;
+    
+    }
+    
+    .row-box .buy-ticks{
+        padding: 10px 20px;
+        background-color: #000;
+        text-align: center;
+        color: #fff;
+        margin-top: 400px;
+        text-decoration: none;
+    
+    }
+    .row-box .buy-ticks:hover{
+        background-color: gray;
+        cursor: pointer;
+    }
+    .modal.open{
+        display: flex;
+    }
+    .modal{
+        position:fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0,0.3);
+       display: none;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .modal .ti-close{
+       position: absolute;
+        color:white;
+        right: 0;
+        top: 0;
+        padding: 10px;
+        opacity: 0.7;
+        cursor: pointer;
+        
+    }
+    .modal .ti-close:hover{
+        opacity: 1;
+    
+    }
+    
+    .modal-container {
+        background: white;
+        width: 900px;
+        max-width: calc(100% - 48px);
+        min-height: 300px;
+        position: relative;
+        animation: FadeIn ease 0.8s;
+       
+       
+    }
+    .modal-header{
+        background: #009688;
+        height: 120px;
+        color: white;
+        font-size:30px;
+        letter-spacing: 5px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+    }
+    .modal-header .text-tickes{
+        margin-left: 16px;
+    }
+    .modal-input{
+        padding: 12px 10px;
+        width: 100%;
+        margin-bottom: 40px;
+        border: #009688 solid 2px;
+        border-radius: 5px;
+    }
+    .modal-label{
+        display: block;
+        padding-bottom: 20px;
+        margin-top: 7px;
+    }
+    .modal-body{
+        padding: 20px;
+        
+    }
+    .modal-button{
+        width: 100%;
+        background-color: #009688;
+        padding: 10px;
+        
+        border-radius: 5px;
+        
+    }
+    .modal-button:hover{
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    .box-button{
+        padding: 20px;
+    }
+    .modal-footer{
+        text-align: end;
+        padding: 20px;
+    }
+    @keyframes FadeIn{
+        from{
+            transform: translateY(-180px);
+            opacity: 0;
+    
+        }
+        to{
+            transform: translateY(0);
+            opacity: 1;
+    
+        }
+    }
+    #content .contact{
+       
+       
+    
+    }
+    .contact .box-contact{
+        
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom:120px;
+        
+    }
+    .box-contact .info {
+        float: left;
+        
+        
+    }
+    .col-half .names{
+        float: left !important;
+    }
+    .box-contact .info i{
+        width: 32px;
+        
+        padding-right: 10px;
+     
+    }
+    .box-contact .info p{
+        display: block;
+        padding: 14px 0px 14px 0px;
+        font-size: 18px;
+    }
+    .box-contact .box-input {
+        
+     
+    }
+    .box-contact .box-input{
+       float: right;
+        display: inline;
+        margin-bottom: 15px;
+        padding: 10px;
+        
+    }
+    
+    .box-input .name{
+        padding: 16px;
+        margin-bottom: 10px;
+        
+    }
+    .box-input .email{
+        margin-left: 10%;
+        
+    }
+    .box-input .message{
+        width: 100%;
+        
+    }
+    .box-contact .btn-send{
+       
+       
+        padding: 12px 32px;
+        background-color: #000;
+        color: #fff;
+        float: right;
+        margin-top: 20px;
+        font-weight: bold;
+        
+    
+    }
+    .box-contact .btn-send:hover{
+        cursor: pointer;
+        opacity: 0.5;
+        
+    }
+    .box-row .input{
+        
+    }
+    .footer-img .image{
+        width: 100%;
+    }
+    .footer{
+        padding: 64px 16px;
+        text-align:center;
+    }
+    .footer .social-list a{
+        font-size: 24px;
+        text-decoration: none;
+      
+        color: gray;
+    }
+    .footer p{
+        padding-top: 20px;
+        color: gray;
+    }
+
+}
+
+
+
+
