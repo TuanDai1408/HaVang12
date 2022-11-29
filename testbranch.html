@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/base.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+        <link rel="stylesheet" href="./css/grid.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/form.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div id="app">
+        <div id="header">
+            <div class="header-nav">
+                <div class="header-nav-left">
+                    <div class="logo">
+                        <a href="">
+                            <img src="https://havang.com/wp-content/uploads/2020/01/logo.png">
+                          </a>
+                       
+                    </div>
+                    <ul class="header-nav-left__list">
+                        <li class="header-nav-left__item">
+                            <a class="models" href="">Thương hiệu</a>
+                        </li>
+
+                        <li class="header-nav-left__item">
+                            <a class="custom" href="">Hệ thống cữa hàng</a>
+                        </li>
+                        <li class="header-nav-left__item">
+                            <a class="ownership" href="">Về chúng tôi</a>
+                        </li>
+                        <li class="header-nav-left__item">
+                            <a class="motorsport" href="">Liên hệ</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="header-nav-right">
+                   
+                    <div class="header-nav-right__icon">
+                        <div class="header-nav-right__icon-box">
+                            
+                            <i class="bars-icon-header fas fa-bars"></i>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="maskHeader"></div>
+
+            <div id="msg-icon-header" class="side-bar-msg">
+                <div class="side-bar-msg__title">
+                    <span>ASK ME</span>
+                    <i class="exit-icon-header fas fa-times"></i>
+                </div>
+                <div class="side-bar-msg__des">
+                    <div class="side-bar-msg__des-text">
+                        <div class="side-bar-msg__des-text-item">
+                            <span class="logo">L</span>
+                            <span class="text">
+                                I'm Lamborghini's first Artificial Intelligence, how can I help you?
+                            </span>
+                        </div>
+                        <div class="side-bar-msg__des-text-item">
+                            <span class="logo">L</span>
+                            <span class="text">
+                                You can choose one of the suggestions or ask me a question
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="side-bar-msg__des-choose">
+                        <div class="side-bar-msg__des-choose-item">
+                            <span>MODELS</span>
+                        </div>
+                        <div class="side-bar-msg__des-choose-item">
+                            <span>DEALERS</span>
+                        </div>
+                        <div class="side-bar-msg__des-choose-item">
+                            <span>MUSEUM AND PRODUCTION LINE</span>
+                        </div>
+                        <div class="side-bar-msg__des-choose-item">
+                            <span>AD PERSONAM</span>
+                        </div>
+                        <div class="side-bar-msg__des-choose-item">
+                            <span>WORK WITH US</span>
+                        </div>
+                        <div class="side-bar-msg__des-choose-item">
+                            <span>COMPANY AND HISTORY</span>
+                        </div>
+                        <div class="side-bar-msg__des-choose-item">
+                            <span>MASTERPIECES</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-bar-msg__input">
+                     <textarea form="query-form" id="input-text" name="" id="" cols="36" rows="2" placeholder="Hey, ask me something..."></textarea>
+                    <button>SEND</button>
+                </div>
+            </div>
+            <div id="search-icon-header" class="search-overplay">
+                <div class="search-icon-header-box">
+                    <div class="search-icon-header-close">
+                        <span>CLOSE SEARCH</span>
+                        <i class="exit-icon-header fas fa-times"></i>
+                    </div>
+                    <div class="search-icon-header-brand">LAMBORGHINI</div>
+                    <div class="search-icon-header-tittle">SEARCH IN THE WEBSITE</div>
+                    <div class="search-icon-header-input">
+                        <input type="text" placeholder="Search on Lamborghini.com">
+                        <div class="search-icon-heade-input-btn"><span>SEARCH</span> </div>
+                        <i class="search-icon-header fas fa-search "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div id="bars-icon-header" class="bars-overplay">
+                <div class="bars-overplay-exit">
+                    <i class="exit-icon-header fas fa-times"></i>
+                </div>
+                <div class="bars-overplay-container">
+                    <div class="bars-overplay-row above">
+                        <div class="bars-overplay-col ">
+                            <ul class="bars-overplay-list">
+                                <li class="bars-overplay-item"><a href="">Về chúng tôi</a></li>
+                                <li class="bars-overplay-item"><a href="">Thương hiệu</a></li>
+                            </ul>
+                        </div>
+                        <div class="bars-overplay-col">
+                            <ul class="bars-overplay-list">
+                                <li class="bars-overplay-item"><a href="">Furla</a></li>
+                                <li class="bars-overplay-item"><a href="">Geox</a></li>
+                                <li class="bars-overplay-item"><a href="">Shooz</a></li>
+                            </ul>
+                        </div>
+                        <div class="bars-overplay-col">
+                            <ul class="bars-overplay-list">
+                                <li class="bars-overplay-item"><a href="">Gosumo</a></li>
+                                <li class="bars-overplay-item"><a href="">Shooz.Vn</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div> 
+
+                <div class="bars-overplay-mcontainer">
+                    <div class="bars-overplay-mcontainer-nav">
+                        <ul class="nav-list active">
+                            <li class="nav-item" style="visibility: hidden">
+                                <div class="nav-item-box">
+                                    <span class="mmodels">Về chúng tôi</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>   
+                            </li>
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="mmodels">Về chúng tôi</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>    
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="mcustom">Thương hiệu</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="mownership">Gosumo</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="mmotorsport">Shooz.vn</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="">Furla</span>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="">Geox</span>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="">Shooz</span>
+                                </div>
+                            </li>
+
+                            
+
+                            
+
+                            
+                        </ul>
+
+                      
+
+                        
+                    </div>
+                  
+                </div>
+            </div>
+            
+        </div>
+        <div id="content">
+            <div class="slider">
+                <div class="slides">
+
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    
+                    <div class="slide first">
+                      <img src="./img/slider3.webp" alt="">
+                      <div class="slide-info">
+                          <span class="slide-name name1">GOSUMO</span>
+                          <span class="slide-intro intro1">Kênh mua sắm hàng hiệu đầy tiện nghi</span>
+                          <a href="">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1.5" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path><path class="icon on-dark" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)"></path></g></svg>
+                          </a>
+                      </div>
+                    <div class="bg-overplay"></div>
+
+                    </div>
+                    <div class="slide second">
+                      <img src="./img/slider2.webp" alt="">
+                      <div class="slide-info">
+                          <span class="slide-name name2">GEOX</span>
+                          <span class="slide-intro intro2">Cùng bạn rông chơi trên mọi quảng đường</span>
+                          <a href="">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1.5" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path><path class="icon on-dark" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)"></path></g></svg>
+                          </a>
+                      </div>
+                    <div class="bg-overplay"></div>
+
+                    </div>
+                    <div class="slide third">
+                      <img src="./img/sleder1.webp" alt="">
+                      <div class="slide-info">
+                          <span class="slide-name name3">Về chúng tôi</span>
+                          <span class="slide-intro intro3">Kiến tạo phong cách từ năm 2003</span>
+                          <a href="">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1.5" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path><path class="icon on-dark" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)"></path></g></svg>
+                          </a>
+                      </div>
+                    <div class="bg-overplay"></div>
+
+                    </div>
+                   <!--  <div class="navigation-auto">
+                      <label for="radio1" class="auto-btn auto-btn1"></label>
+                      <label for="radio2" class="auto-btn auto-btn2"></label>
+                      <label for="radio3" class="auto-btn auto-btn3"></label>
+                    </div> -->
+                  </div>
+            </div>
+
+            <div class="slider2">
+                <div class="slides2">
+                    <div class="slide2" data-index="0">
+                        <div class="slide2-skew">
+                            <div class="skew-fix">
+                                <img src="./img/slider2_geox.webp" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="slide2" data-index="1">
+                        <div class="slide2-skew">
+                            <div class="skew-fix">
+                                <img src="./img/slider2_furla.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2 active" data-index="2">
+                        <div class="slide2-skew">
+                            <div class="skew-fix">
+                                <img src="./img/slider2_xti_shooz.webp" alt="">
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+                <div class="slider2-navigation">
+                    <span class="tittle">Thương hiệu</span>
+                    <div class="slider2-navigation-btn">
+                        <span class="btn btn-left">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path><path class="icon on-dark" d="M0 5.675L7.432 0l7.432 5.675" transform="rotate(-90 935.432 -711.068)"></path></g></svg>
+                        </span>
+
+                        <span class="btn btn-right">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path><path class="icon on-dark" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)"></path></g></svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="slide2-text-container">
+                    <div class="slogan1 text-container">
+                        <span class="name-car">FURLA</span>
+                        <span class="slogan-car">Điểm nhấn ấn tượng</span>
+                    </div>
+
+                    <div class="slogan2 text-container active">
+                        <span class="name-car">SHOOZ</span>
+                        <span class="slogan-car">Mẫu mã phong phú đa dạng</span>
+                    </div>
+
+                    <div class="slogan0 text-container">
+                        <span class="name-car">GEOX</span>
+                        <span class="slogan-car">Phong cách công nghệ ưu việt</span>
+                    
+                    </div>
+                  
+                </div>
+
+            </div>
+          
+
+
+
+            
+            <div class="content-locator">
+                <div class="content-locator-img">
+                    <img src="./img/content_history.webp" alt="">
+                </div>
+                <div class="content-locator-info">
+                    <span class="content-locator-info-text1">MULTI-BRAND </span>
+                    <span class="content-locator-info-text2">Trải nghiệm mua sắm <br>nhiều hơn tại Shooz.vn </span>
+                    <a href="" class="content-locator-info-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1.5" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path><path class="icon on-dark" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)"></path></g></svg>
+                    </a>
+                </div>
+                <div class="content-locator__overplay"></div>
+            </div>
+
+            
+
+
+          <!--   <div class="content-news">
+                <div class="grid wide">
+                    <div class="content-news-main">
+                        <span class="content-news-main__text1">NEWS</span>
+                        <span class="content-news-main__text2">LAMBORGHINI WORD</span>
+                        <a href="#" class="content-news-main__img">
+                            <img src="./img/newsmain.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="content-news-sub">
+                        <div class="row mobile">
+                            <div class="col c-6 l-12 m-12">
+                                <a href="" class="content-news-sub__img">
+                                    <img src="./img/newssub.webp" alt="">
+                                </a>
+                            </div>
+                            <div class="col c-6 l-12 m-12">
+                                <div class="content-news-sub__text">
+                                    <div class="content-news-sub__text-date">12 JANUARY 2002</div>
+                                    <a href="" class="content-news-sub__text-name">NEW SALES RECORD IN 2021 FOR LAMBORGHINI</a>
+                                    <a href="" class="content-news-sub__text-btn">
+                                        <span>READ MORE</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mobile content-news-sub-mg">
+                            <div class="col c-6 l-12 m-12">
+                                <a href="" class="content-news-sub__img">
+                                    <img src="./img/newssbu2.webp" alt="">
+                                </a>
+                            </div>
+                            <div class="col c-6 l-12 m-12">
+                                <div class="content-news-sub__text">
+                                    <div class="content-news-sub__text-date">11 JANUARY 2022</div>
+                                    <a href="" class="content-news-sub__text-name">AUTOMOBILI LAMBORGHINI AT PITTI IMMAGINE UOMO E BAMBINO</a>
+                                    <a href="" class="content-news-sub__text-btn">
+                                        <span>READ MORE</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-btn-container">
+                        <a href="" class="content-btn-all">
+                            <span>SEE ALL</span>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div id="footer">
+            <div class="grid wide footer">
+                <div class="footer-container">
+                    <div class="footer-above">
+                        <ul class="footer-above-nav">
+                            <li class="footer-above-nav__item">
+                                <div class="logo">
+                                    <a href="">
+                                        <img src="https://havang.com/wp-content/uploads/2020/01/logo.png">
+                                      </a>
+                                   
+                                </div>
+                            </li>
+                            <li class="footer-above-nav__item">
+                                <a href="">About</a>
+                            </li>
+                            <li class="footer-above-nav__item">
+                                <a href="">Contact</a>
+                            </li>
+                            <li class="footer-above-nav__item">
+                                <a href="">News</a>
+                            </li>
+                            <li class="footer-above-nav__item">
+                                <a href="">Coupons</a>
+                            </li>
+                            <li class="footer-above-nav__item">
+                                <a href="">Shooz</a>
+                            </li>
+                            <li class="footer-above-nav__item">
+                                <a href="">Geox</a>
+                            </li>
+                            <li class="footer-above-nav__item">
+                                <a href="">Furla</a>
+                            </li>
+                            
+                        </ul>
+                        <ul class="footer-above-social">
+                            <li class="footer-above-social__item">
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="footer-above-social__item">
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="footer-above-social__item">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="footer-above-social__item">
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li class="footer-above-social__item">
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <p class="footer-middle"> Địa chỉ : 36/9 Nguyễn Gia Trí, Phường 25, Quận Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam
+                    </p>
+                    <p class="footer-copyright">Copyright © 2019-2020 Golden Summer Fashion Co Ltd. All rights reserved.
+                   
+                    </p>
+
+                    <ul class="footer-bottom-social">
+                        <li class="footer-bottom-social__item">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="footer-bottom-social__item">
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="footer-bottom-social__item">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="footer-bottom-social__item">
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li class="footer-bottom-social__item">
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div style=" background:rgba(0,0,0,0.5);position:fixed;top:11.5%;left:0;width:100%;align-content: center;" id="modal_wrapper">
+            <form style="border: 2px solid #ccc;border-radius: 7px;position: relative;width:30%;margin: 4% auto 15% auto;border: 1px solid #888;padding-bottom: 30px;background-color: #fefefe;" action="/action_page.php" class="popup_content">
+                <div>
+                    <button  onclick="EventClick()" id="btn_close" style="font-size: 26px;border:none;right: 3px;top: 3px; position: absolute;margin-bottom: 10px;background: none"><i  class="fa-sharp fa-solid fa-circle-xmark"></i></button>
+                    <h1 style="text-align:center;padding-top: 40px;">ĐĂNG KÝ THÀNH VIÊN GEOX – NHẬN NGAY VOUCHER TRỊ GIÁ 1.000.000 VNĐ</h1>
+                </div>
+                <div  class="container">
+                    <input style="border-radius: 4px;width: 90%;padding:10px;margin: 8px 26px;display: inline-block;box-sizing: border-box; font-size: 16px;border: 1px solid #ccc;" class="input" type="email" placeholder="Nhập Email của bạn ">
+                    <button onclick="windown.location.href='https://gosumo.vn/'" style="border-radius: 4px;width:90%;cursor: pointer;background-color: yellow;padding:10px;margin: 8px 26px;font-size: 16px;" type="submit">Đăng kí</button>
+                    
+                </div>
+            </form>
+            
+            </div>
+            
+    </div>
+<script>
+    
+    
+    function EventClick(){
+        document.getElementById("modal_wrapper").style.display="none";
+        alert("Xin chào tất cả các bạn!");
+    }
+   
+
+</script>
+
+   
+
+
+
+<script src="./js/main.js"></script>
+<script>
+    start();
+</script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
