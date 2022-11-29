@@ -7,6 +7,7 @@ function getParent(element, selector) {
         element = element.parentElement;
     }
 } 
+//thêm ggit
 
 const activeMenuHeader = (itemLeftNav, menuElement, headerMenu) => {
     if(headerMenu.classList.contains('active')) {
